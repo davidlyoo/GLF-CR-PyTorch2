@@ -17,5 +17,7 @@ This repository is intended for researchers and developers who wish to experimen
 
 ```bash
 pip install -r requirements.txt
-cd cuda_ops/kernelconv2d_cuda
-python setup.py install
+
+cd ./codes/FAC/kernelconv2d/
+python setup.py clean
+python setup.py install --user
